@@ -1,0 +1,283 @@
+{
+  "total_entries": 5532,
+  "malformed_lines": 468,
+  "count_by_severity": {
+    "ERROR": 820,
+    "FATAL": 271,
+    "INFO": 3335,
+    "WARN": 1106
+  },
+  "count_by_service": {
+    "auth-service": 1106,
+    "notification-service": 1130,
+    "order-service": 1082,
+    "payment-service": 1090,
+    "user-service": 1124
+  },
+  "incidents": [
+    {
+      "type": "Application Error",
+      "severity": "HIGH",
+      "service": "auth-service",
+      "occurrences": 85,
+      "first_seen": "2026-10-01T01:52:05Z",
+      "last_seen": "2026-10-06T17:01:53Z"
+    },
+    {
+      "type": "Application Error",
+      "severity": "HIGH",
+      "service": "notification-service",
+      "occurrences": 78,
+      "first_seen": "2026-10-01T00:44:11Z",
+      "last_seen": "2026-10-06T12:34:59Z"
+    },
+    {
+      "type": "Application Error",
+      "severity": "HIGH",
+      "service": "order-service",
+      "occurrences": 76,
+      "first_seen": "2026-10-01T00:21:46Z",
+      "last_seen": "2026-10-06T14:57:57Z"
+    },
+    {
+      "type": "Application Error",
+      "severity": "HIGH",
+      "service": "user-service",
+      "occurrences": 83,
+      "first_seen": "2026-10-01T04:47:53Z",
+      "last_seen": "2026-10-06T14:47:58Z"
+    },
+    {
+      "type": "Database Connectivity",
+      "severity": "HIGH",
+      "service": "auth-service",
+      "occurrences": 55,
+      "first_seen": "2026-10-01T08:20:24Z",
+      "last_seen": "2026-10-06T14:03:00Z"
+    },
+    {
+      "type": "Database Connectivity",
+      "severity": "HIGH",
+      "service": "notification-service",
+      "occurrences": 43,
+      "first_seen": "2026-10-01T01:51:04Z",
+      "last_seen": "2026-10-06T16:45:55Z"
+    },
+    {
+      "type": "Database Connectivity",
+      "severity": "HIGH",
+      "service": "order-service",
+      "occurrences": 49,
+      "first_seen": "2026-10-01T01:46:14Z",
+      "last_seen": "2026-10-06T16:34:44Z"
+    },
+    {
+      "type": "Database Connectivity",
+      "severity": "HIGH",
+      "service": "user-service",
+      "occurrences": 47,
+      "first_seen": "2026-10-01T01:04:45Z",
+      "last_seen": "2026-10-06T16:45:17Z"
+    },
+    {
+      "type": "Database Outage",
+      "severity": "CRITICAL",
+      "service": "auth-service",
+      "occurrences": 52,
+      "first_seen": "2026-10-01T00:52:07Z",
+      "last_seen": "2026-10-06T18:49:45Z"
+    },
+    {
+      "type": "Database Outage",
+      "severity": "CRITICAL",
+      "service": "notification-service",
+      "occurrences": 50,
+      "first_seen": "2026-10-01T03:09:48Z",
+      "last_seen": "2026-10-06T15:21:37Z"
+    },
+    {
+      "type": "Database Outage",
+      "severity": "CRITICAL",
+      "service": "order-service",
+      "occurrences": 63,
+      "first_seen": "2026-10-01T01:50:59Z",
+      "last_seen": "2026-10-06T17:48:56Z"
+    },
+    {
+      "type": "Database Outage",
+      "severity": "CRITICAL",
+      "service": "payment-service",
+      "occurrences": 49,
+      "first_seen": "2026-10-01T04:39:20Z",
+      "last_seen": "2026-10-06T14:58:35Z"
+    },
+    {
+      "type": "Database Outage",
+      "severity": "CRITICAL",
+      "service": "user-service",
+      "occurrences": 57,
+      "first_seen": "2026-10-01T02:19:15Z",
+      "last_seen": "2026-10-06T17:10:16Z"
+    },
+    {
+      "type": "Deprecated API Usage",
+      "severity": "LOW",
+      "service": "auth-service",
+      "occurrences": 50,
+      "first_seen": "2026-10-01T10:28:29Z",
+      "last_seen": "2026-10-06T15:44:24Z"
+    },
+    {
+      "type": "Deprecated API Usage",
+      "severity": "LOW",
+      "service": "notification-service",
+      "occurrences": 66,
+      "first_seen": "2026-10-01T00:34:33Z",
+      "last_seen": "2026-10-06T17:16:34Z"
+    },
+    {
+      "type": "Deprecated API Usage",
+      "severity": "LOW",
+      "service": "order-service",
+      "occurrences": 46,
+      "first_seen": "2026-10-01T00:55:55Z",
+      "last_seen": "2026-10-06T16:20:58Z"
+    },
+    {
+      "type": "Deprecated API Usage",
+      "severity": "LOW",
+      "service": "payment-service",
+      "occurrences": 46,
+      "first_seen": "2026-10-01T01:43:15Z",
+      "last_seen": "2026-10-06T17:29:45Z"
+    },
+    {
+      "type": "Deprecated API Usage",
+      "severity": "LOW",
+      "service": "user-service",
+      "occurrences": 52,
+      "first_seen": "2026-10-01T01:56:54Z",
+      "last_seen": "2026-10-06T16:25:51Z"
+    },
+    {
+      "type": "Payment Failure",
+      "severity": "HIGH",
+      "service": "auth-service",
+      "occurrences": 30,
+      "first_seen": "2026-10-01T02:15:44Z",
+      "last_seen": "2026-10-06T15:42:34Z"
+    },
+    {
+      "type": "Payment Failure",
+      "severity": "HIGH",
+      "service": "notification-service",
+      "occurrences": 26,
+      "first_seen": "2026-10-01T08:49:29Z",
+      "last_seen": "2026-10-06T17:59:02Z"
+    },
+    {
+      "type": "Payment Failure",
+      "severity": "HIGH",
+      "service": "order-service",
+      "occurrences": 41,
+      "first_seen": "2026-10-01T00:24:09Z",
+      "last_seen": "2026-10-06T12:15:01Z"
+    },
+    {
+      "type": "Payment Failure",
+      "severity": "HIGH",
+      "service": "payment-service",
+      "occurrences": 163,
+      "first_seen": "2026-10-01T00:24:58Z",
+      "last_seen": "2026-10-06T17:19:29Z"
+    },
+    {
+      "type": "Payment Failure",
+      "severity": "HIGH",
+      "service": "user-service",
+      "occurrences": 44,
+      "first_seen": "2026-10-01T01:00:07Z",
+      "last_seen": "2026-10-06T16:57:56Z"
+    },
+    {
+      "type": "Rate Limit Warning",
+      "severity": "MEDIUM",
+      "service": "auth-service",
+      "occurrences": 58,
+      "first_seen": "2026-10-01T01:11:46Z",
+      "last_seen": "2026-10-06T06:01:29Z"
+    },
+    {
+      "type": "Rate Limit Warning",
+      "severity": "MEDIUM",
+      "service": "notification-service",
+      "occurrences": 55,
+      "first_seen": "2026-10-01T00:20:21Z",
+      "last_seen": "2026-10-06T17:26:24Z"
+    },
+    {
+      "type": "Rate Limit Warning",
+      "severity": "MEDIUM",
+      "service": "order-service",
+      "occurrences": 57,
+      "first_seen": "2026-10-01T00:45:45Z",
+      "last_seen": "2026-10-06T16:36:15Z"
+    },
+    {
+      "type": "Rate Limit Warning",
+      "severity": "MEDIUM",
+      "service": "payment-service",
+      "occurrences": 50,
+      "first_seen": "2026-10-01T02:12:08Z",
+      "last_seen": "2026-10-06T15:36:41Z"
+    },
+    {
+      "type": "Rate Limit Warning",
+      "severity": "MEDIUM",
+      "service": "user-service",
+      "occurrences": 56,
+      "first_seen": "2026-10-01T05:38:32Z",
+      "last_seen": "2026-10-06T17:12:14Z"
+    },
+    {
+      "type": "Resource Pressure",
+      "severity": "MEDIUM",
+      "service": "auth-service",
+      "occurrences": 99,
+      "first_seen": "2026-10-01T00:04:53Z",
+      "last_seen": "2026-10-06T18:36:10Z"
+    },
+    {
+      "type": "Resource Pressure",
+      "severity": "MEDIUM",
+      "service": "notification-service",
+      "occurrences": 111,
+      "first_seen": "2026-10-01T02:01:00Z",
+      "last_seen": "2026-10-06T18:04:30Z"
+    },
+    {
+      "type": "Resource Pressure",
+      "severity": "MEDIUM",
+      "service": "order-service",
+      "occurrences": 107,
+      "first_seen": "2026-10-01T02:41:19Z",
+      "last_seen": "2026-10-06T17:14:56Z"
+    },
+    {
+      "type": "Resource Pressure",
+      "severity": "MEDIUM",
+      "service": "payment-service",
+      "occurrences": 131,
+      "first_seen": "2026-10-01T00:06:02Z",
+      "last_seen": "2026-10-06T17:08:29Z"
+    },
+    {
+      "type": "Resource Pressure",
+      "severity": "MEDIUM",
+      "service": "user-service",
+      "occurrences": 122,
+      "first_seen": "2026-10-01T02:39:52Z",
+      "last_seen": "2026-10-06T18:06:14Z"
+    }
+  ]
+}
